@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- external css added here -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" <!-- bootstrap css here -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- for font -->
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap"
+        rel="stylesheet">
+    <!-- font end -->
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Welcome</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- about us section  -->
+
+    <section class="main_heading mt-5 mb-5">
+        <div class="text-center">
+            <h1 class="display-4">About Us</h1>
+            <hr class="w-25 mx-auto" />
+        </div>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12 col-xxl-6">
+                    <figure>
+                        <img src="images/a1.jpeg.jpg" class="img-fluid about_img" alt="uchihaimage" />
+                    </figure>
+                </div>
+                <div
+                    class="col-lg-6 col-md-6 col-12 col-xxl-6 d-flex justify-content-center align-item-start flex-column ">
+                    <h1>My Journey</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, quisquam! Natus, aut.
+                        Incidunt
+                        recusandae earum quaerat quas volupta rdsgerg egreygetjsrj kl8tyroityu56y </p>
+                    <button type="button" class="btn btn-info w-50 data-bs-toggle=" tooltip" data-bs-placement="right"
+                        title="Check More">Check More</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div id="navbar-example" style="position: relative;">
+
+
+                    <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+                        <a class="navbar-brand" href="#">Articles</a>
+                        <ul class="nav nav-pills">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#scrollspyHeading1">First</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#scrollspyHeading2">Second</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                    aria-expanded="false">Dropdown</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+                                    <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0"
+                        style="height: 270px ; overflow-y: scroll;" class="scrollspy-example" tabindex="0">
+                        <h4 id="scrollspyHeading1">First heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt itaque, assumenda aperiam
+                            ullam
+                            earum doloremque saepe culpa quis atque dolor voluptatem hic, iure voluptate rem dicta
+                            facilis
+                            esse, in dolore ex nemo natus maiores. Doloribus cupiditate sit itaque vel molestias ipsum
+                            repellat, aliquam commodi assumenda eum repudiandae hic corrupti ipsa.</p>
+                        <h4 id="scrollspyHeading2">Second heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt itaque, assumenda aperiam
+                            ullam
+                            earum doloremque saepe culpa quis atque dolor voluptatem hic, iure voluptate rem dicta
+                            facilis
+                            esse, in dolore ex nemo natus maiores. Doloribus cupiditate sit itaque vel molestias ipsum
+                            repellat, aliquam commodi assumenda eum repudiandae hic corrupti ipsa.</p>
+                        <h4 id="scrollspyHeading3">Third heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt itaque, assumenda aperiam
+                            ullam
+                            earum doloremque saepe culpa quis atque dolor voluptatem hic, iure voluptate rem dicta
+                            facilis
+                            esse, in dolore ex nemo natus maiores. Doloribus cupiditate sit itaque vel molestias ipsum
+                            repellat, aliquam commodi assumenda eum repudiandae hic corrupti ipsa.</p>
+                        <h4 id="scrollspyHeading4">Fourth heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt itaque, assumenda aperiam
+                            ullam
+                            earum doloremque saepe culpa quis atque dolor voluptatem hic, iure voluptate rem dicta
+                            facilis
+                            esse, in dolore ex nemo natus maiores. Doloribus cupiditate sit itaque vel molestias ipsum
+                            repellat, aliquam commodi assumenda eum repudiandae hic corrupti ipsa.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about us section end -->
+    <!-- footer starts -->
+    <footer class="bg-secondary text-center text-white">
+        <p>&#169; copyright 2022-2023</p>
+    </footer>
+    <!-- footer ends -->
+
+    <script>
+        var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+            target: '#navbar-example '
+        })
+    </script>
+
+</body>
+
+</html>
